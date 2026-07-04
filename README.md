@@ -66,7 +66,7 @@ Diese Organisation bündelt Repos rund um SaarMesh und MeshCore:
 
 ## Lizenz
 
-<!-- TODO: Lizenz festlegen, z.B. MIT für eigene Repos -->
+Die Projekte in dieser Organisation stehen, sofern nicht anders angegeben, unter der [MIT-Lizenz](https://opensource.org/licenses/MIT).
 
 ---
 
