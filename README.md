@@ -40,9 +40,9 @@ Die Live-Karte läuft auf [CoreScope](https://github.com/Kpa-clawbot/CoreScope),
 Du bist im SaarLorLux-Raum und willst mitfunken?
 
 1. MeshCore-kompatible Hardware besorgen (z.B. Heltec, RAK, T-Beam)
-2. Frequenzband/Kanalkonfiguration: <!-- TODO: Kanal-Infos ergänzen -->
+2. Frequenzband: **868 MHz (EU)**. Region-Scope: **saarlorlux** (Standard für das Saarland – Details siehe [saarmesh.de/regions](https://saarmesh.de/regions))
 3. In Reichweite eines bestehenden Nodes bringen – Abdeckung siehe [Live-Karte](https://live.saarmesh.de)
-4. Fragen? <!-- TODO: Kontaktkanal (Telegram/Matrix/Discord?) -->
+4. Fragen oder Kontakt: Kanal **#saarland** im Mesh, oder über [Telegram](https://saarmesh.de) (Link auf der Projektseite)
 
 ## Projekte & Beiträge
 
