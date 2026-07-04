@@ -10,7 +10,8 @@ Ein öffentliches [MeshCore](https://meshcore.co.uk/) Funknetz für die SaarLorL
 
 SaarMesh ist ein community-getragenes LoRa-Mesh-Netzwerk mit aktuell **800+ Nodes** in der Grenzregion Deutschland/Frankreich/Luxemburg. Das Netz nutzt MeshCore-kompatible Hardware und ermöglicht dezentrale, infrastrukturunabhängige Kommunikation über LoRa-Funk – nützlich für Funkamateure, Outdoor-Aktivitäten und als Backup-Kommunikationsmittel z.B. im Katastrophenschutz.
 
-<!-- Screenshot: Live-Karte hier einfügen -->
+![CoreScope Live-Karte](assets/corescope-live-map.png)
+*Live-Ansicht der Mesh-Aktivität auf [live.saarmesh.de](https://live.saarmesh.de)*
 
 ## Netzwerk-Architektur
 
@@ -28,6 +29,11 @@ MeshCore Nodes (800+)
 ```
 
 Die Live-Karte läuft auf [CoreScope](https://github.com/Kpa-clawbot/CoreScope), einer Open-Source-Visualisierung für MeshCore-Netzwerke. Wir tragen aktiv zu CoreScope bei (siehe unten).
+
+## Projektseite
+
+![saarmesh.de](assets/saarmesh-homepage.png)
+*Die Projektseite [saarmesh.de](https://saarmesh.de) mit Dokumentation, Regions-Struktur und Live-Feed aus dem #saarland-Kanal.*
 
 ## Mitmachen
 
@@ -54,6 +60,9 @@ Diese Organisation bündelt Repos rund um SaarMesh und MeshCore:
 - **Visualisierung:** CoreScope
 - **Infrastruktur:** VPS + Caddy (TLS), Raspberry Pi Gateways
 - **Bot-Features:** Wetterabfrage, NINA-Warnkanal, ADS-B-Status im Mesh
+
+![SaarMesh-Bot Dashboard](assets/saarmesh-bot-dashboard.png)
+*Internes Dashboard des SaarMesh-Bots zur Kanal-Steuerung und Nachrichtenübersicht.*
 
 ## Lizenz
 
