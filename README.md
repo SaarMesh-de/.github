@@ -2,7 +2,7 @@
 
 Ein öffentliches [MeshCore](https://meshcore.co.uk/) Funknetz für die SaarLorLux-Region (Saarland, Lothringen, Luxemburg).
 
-**🌍 Live-Karte:** [live.saarmesh.de](https://live.saarmesh.de) · **🏠 Projektseite:** [saarmesh.de](https://saarmesh.de)
+**🌍 Live-Karte:** [live.saarmesh.de](https://live.saarmesh.de) · **🏠 Projektseite:** [saarmesh.de](https://saarmesh.de) · **☕ Unterstützen:** [ko-fi.com/saarmesh](https://ko-fi.com/saarmesh)
 
 ---
 
@@ -64,3 +64,5 @@ Diese Organisation bündelt Repos rund um SaarMesh und angrenzende Funk-/Homelab
 ---
 
 *Betrieben ehrenamtlich aus dem Saarland. Fragen, Feedback und Mitmacher willkommen.*
+
+Wenn du das Projekt unterstützen möchtest (Hardware, Serverkosten): [☕ ko-fi.com/saarmesh](https://ko-fi.com/saarmesh)
