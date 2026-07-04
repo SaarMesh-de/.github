@@ -1,6 +1,6 @@
 # 🛰️ SaarMesh
 
-Ein öffentliches [Meshtastic](https://meshtastic.org/) / [MeshCore](https://meshcore.co.uk/) Funknetz für die SaarLorLux-Region (Saarland, Lothringen, Luxemburg).
+Ein öffentliches [MeshCore](https://meshcore.co.uk/) Funknetz für die SaarLorLux-Region (Saarland, Lothringen, Luxemburg).
 
 **🌍 Live-Karte:** [live.saarmesh.de](https://live.saarmesh.de) · **🏠 Projektseite:** [saarmesh.de](https://saarmesh.de)
 
@@ -8,14 +8,14 @@ Ein öffentliches [Meshtastic](https://meshtastic.org/) / [MeshCore](https://mes
 
 ## Über das Projekt
 
-SaarMesh ist ein community-getragenes LoRa-Mesh-Netzwerk mit aktuell **800+ Nodes** in der Grenzregion Deutschland/Frankreich/Luxemburg. Das Netz nutzt Meshtastic- und MeshCore-kompatible Hardware und ermöglicht dezentrale, infrastrukturunabhängige Kommunikation über LoRa-Funk – nützlich für Funkamateure, Outdoor-Aktivitäten und als Backup-Kommunikationsmittel z.B. im Katastrophenschutz.
+SaarMesh ist ein community-getragenes LoRa-Mesh-Netzwerk mit aktuell **800+ Nodes** in der Grenzregion Deutschland/Frankreich/Luxemburg. Das Netz nutzt MeshCore-kompatible Hardware und ermöglicht dezentrale, infrastrukturunabhängige Kommunikation über LoRa-Funk – nützlich für Funkamateure, Outdoor-Aktivitäten und als Backup-Kommunikationsmittel z.B. im Katastrophenschutz.
 
 <!-- Screenshot: Live-Karte hier einfügen -->
 
 ## Netzwerk-Architektur
 
 ```
-Meshtastic/MeshCore Nodes (800+)
+MeshCore Nodes (800+)
         │  LoRa
         ▼
    Gateway-Nodes
@@ -27,13 +27,13 @@ Meshtastic/MeshCore Nodes (800+)
    VPS (bold-wright)
 ```
 
-Die Live-Karte läuft auf [CoreScope](https://github.com/Kpa-clawbot/CoreScope), einer Open-Source-Visualisierung für Meshtastic/MeshCore-Netzwerke. Wir tragen aktiv zu CoreScope bei (siehe unten).
+Die Live-Karte läuft auf [CoreScope](https://github.com/Kpa-clawbot/CoreScope), einer Open-Source-Visualisierung für MeshCore-Netzwerke. Wir tragen aktiv zu CoreScope bei (siehe unten).
 
 ## Mitmachen
 
 Du bist im SaarLorLux-Raum und willst mitfunken?
 
-1. Meshtastic- oder MeshCore-kompatible Hardware besorgen (z.B. Heltec, RAK, T-Beam)
+1. MeshCore-kompatible Hardware besorgen (z.B. Heltec, RAK, T-Beam)
 2. Frequenzband/Kanalkonfiguration: <!-- TODO: Kanal-Infos ergänzen -->
 3. In Reichweite eines bestehenden Nodes bringen – Abdeckung siehe [Live-Karte](https://live.saarmesh.de)
 4. Fragen? <!-- TODO: Kontaktkanal (Telegram/Matrix/Discord?) -->
@@ -52,7 +52,7 @@ Diese Organisation bündelt Repos rund um SaarMesh und angrenzende Funk-/Homelab
 
 ## Tech-Stack
 
-- **Mesh:** Meshtastic, MeshCore, LoRa (868 MHz EU)
+- **Mesh:** MeshCore, LoRa (868 MHz EU)
 - **Visualisierung:** CoreScope
 - **Infrastruktur:** VPS + Caddy (TLS), Raspberry Pi Gateways, Home Assistant
 - **Zusatzdienste:** ADS-B/SDR-Integration, Wetter-/Warnkanäle über NINA
