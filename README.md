@@ -40,13 +40,11 @@ Du bist im SaarLorLux-Raum und willst mitfunken?
 
 ## Projekte & Beiträge
 
-Diese Organisation bündelt Repos rund um SaarMesh und angrenzende Funk-/Homelab-Projekte:
+Diese Organisation bündelt Repos rund um SaarMesh und MeshCore:
 
 | Repo | Beschreibung |
 |---|---|
 | [meshcore-chat](https://github.com/Saarlandpower/meshcore-chat) | Web-Chat-Interface für MeshCore (Flask + SocketIO) |
-| [adsb-ha-proxy](https://github.com/Saarlandpower/adsb-ha-proxy) | Flask-Proxy für ADS-B-Flugdaten → Home Assistant |
-| [ha-openligadb-team](https://github.com/Saarlandpower/ha-openligadb-team) | HA-Integration für Liga-Daten (1. FC Saarbrücken u.a.) |
 
 **Upstream-Beiträge:** Wir arbeiten aktiv an [CoreScope](https://github.com/Kpa-clawbot/CoreScope) mit, u.a. Fixes für Versionsauflösung und Node-Staleness-Handling.
 
@@ -54,8 +52,8 @@ Diese Organisation bündelt Repos rund um SaarMesh und angrenzende Funk-/Homelab
 
 - **Mesh:** MeshCore, LoRa (868 MHz EU)
 - **Visualisierung:** CoreScope
-- **Infrastruktur:** VPS + Caddy (TLS), Raspberry Pi Gateways, Home Assistant
-- **Zusatzdienste:** ADS-B/SDR-Integration, Wetter-/Warnkanäle über NINA
+- **Infrastruktur:** VPS + Caddy (TLS), Raspberry Pi Gateways
+- **Bot-Features:** Wetterabfrage, NINA-Warnkanal, ADS-B-Status im Mesh
 
 ## Lizenz
 
