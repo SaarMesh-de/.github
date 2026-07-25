@@ -50,7 +50,7 @@ Diese Organisation bündelt Repos rund um SaarMesh und MeshCore:
 
 | Repo | Beschreibung |
 | --- | --- |
-| [meshcore-chat](https://github.com/Saarlandpower/meshcore-chat) | Web-Chat-Interface für MeshCore (Flask + SocketIO) |
+| [meshcore-chat](https://github.com/SaarMesh-Bot/meshcore-chat) | Web-Chat-Interface für MeshCore (Flask + SocketIO) |
 
 ### Upstream-Mitarbeit an CoreScope
 
