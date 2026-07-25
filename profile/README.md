@@ -8,7 +8,7 @@ Ein öffentliches [MeshCore](https://meshcore.co.uk/) Funknetz für die SaarLorL
 
 ## Über das Projekt
 
-SaarMesh ist ein community-getragenes LoRa-Mesh-Netzwerk mit aktuell **800+ Nodes** in der Grenzregion Deutschland/Frankreich/Luxemburg. Das Netz nutzt MeshCore-kompatible Hardware und ermöglicht dezentrale, infrastrukturunabhängige Kommunikation über LoRa-Funk – nützlich für Funkamateure, Outdoor-Aktivitäten und als Backup-Kommunikationsmittel z.B. im Katastrophenschutz.
+SaarMesh ist ein community-getragenes LoRa-Mesh-Netzwerk mit aktuell **1000+ Nodes** in der Grenzregion Deutschland/Frankreich/Luxemburg. Das Netz nutzt MeshCore-kompatible Hardware und ermöglicht dezentrale, infrastrukturunabhängige Kommunikation über LoRa-Funk – nützlich für Funkamateure, Outdoor-Aktivitäten und als Backup-Kommunikationsmittel z.B. im Katastrophenschutz.
 
 ![CoreScope Live-Karte](https://raw.githubusercontent.com/SaarMesh-de/.github/main/assets/corescope-live-map.png)
 *Live-Ansicht der Mesh-Aktivität auf [live.saarmesh.de](https://live.saarmesh.de)*
@@ -16,7 +16,7 @@ SaarMesh ist ein community-getragenes LoRa-Mesh-Netzwerk mit aktuell **800+ Node
 ## Netzwerk-Architektur
 
 ```
-MeshCore Nodes (800+)
+MeshCore Nodes (1000+)
         │  LoRa
         ▼
    Gateway-Nodes
@@ -49,10 +49,25 @@ Du bist im SaarLorLux-Raum und willst mitfunken?
 Diese Organisation bündelt Repos rund um SaarMesh und MeshCore:
 
 | Repo | Beschreibung |
-|---|---|
+| --- | --- |
 | [meshcore-chat](https://github.com/Saarlandpower/meshcore-chat) | Web-Chat-Interface für MeshCore (Flask + SocketIO) |
 
-**Upstream-Beiträge:** Wir arbeiten aktiv an [CoreScope](https://github.com/Kpa-clawbot/CoreScope) mit, u.a. Fixes für Versionsauflösung und Node-Staleness-Handling.
+### Upstream-Mitarbeit an CoreScope
+
+Unsere Live-Karte läuft auf [CoreScope](https://github.com/Kpa-clawbot/CoreScope). Der Betrieb eines Netzes dieser Größe (aktuell **1000+ Nodes**, 18 Observer) fördert regelmäßig Randfälle zutage, die in kleineren Meshes nicht auffallen — und die wir als Fixes zurück an das Projekt geben.
+
+Unsere Beiträge laufen über den Account [**@SaarMesh-Bot**](https://github.com/SaarMesh-Bot). Aktueller Stand aller eingereichten Pull Requests:
+**[github.com/Kpa-clawbot/CoreScope/pulls?q=author:SaarMesh-Bot](https://github.com/Kpa-clawbot/CoreScope/pulls?q=is%3Apr+author%3ASaarMesh-Bot)**
+
+Inhaltliche Schwerpunkte:
+
+- **Relay-Attribution & Neighbor-Graph** — korrekte Zuordnung von Repeatern bei Uhren-Abweichung, ANON_REQ-Kanten im Nachbarschaftsgraphen, und ein konfigurierbarer Vertrauens-Schwellwert (`pathTrust`), der bei großen Netzen falsche Kanten aus kurzen Hash-Präfixen verhindert.
+- **Ingestor-Robustheit** — Behebung eines stillen Datenverlusts beim `last_seen`-Update von Relays (seit einem Read-only-Refactor wirkungslos), Entkopplung des Watchdog-Loggings von blockierender I/O, und Vermeidung teurer Pro-Beobachtung-Abfragen im Hot-Path.
+- **Frontend & Darstellung** — kleinere Korrekturen an der RX-Coverage-Ansicht.
+
+> **Status:** Die meisten dieser PRs sind eingereicht und review-fertig, warten aber am GitHub-Actions-Freigabe-Gate für externe Contributor auf Aktivierung ihrer CI-Läufe. Der Stand oben aktualisiert sich automatisch.
+
+Ältere Beiträge (Versionsauflösung, Node-Staleness) stammen aus der Frühphase des Projekts unter dem Account [@Saarlandpower](https://github.com/Saarlandpower).
 
 ## Tech-Stack
 
