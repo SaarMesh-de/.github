@@ -59,7 +59,7 @@ Unsere Repos liegen unter dem Account [**@SaarMesh-Bot**](https://github.com/Saa
 
 ### Upstream-Mitarbeit an CoreScope
 
-Der Betrieb eines Netzes dieser Größe (aktuell **1200+ Nodes, 21 Observer**) fördert regelmäßig Randfälle zutage, die in kleineren Meshes nicht auffallen — und die wir als Fixes zurück an das Projekt geben. Bisher sind **9 unserer Pull Requests in CoreScope gemergt**:
+Der Betrieb eines Netzes dieser Größe (aktuell **1200+ Nodes, 21 Observer**) fördert regelmäßig Randfälle zutage, die in kleineren Meshes nicht auffallen — und die wir als Fixes zurück an das Projekt geben. Bisher sind **8 unserer Pull Requests in CoreScope gemergt**:
 **[github.com/Kpa-clawbot/CoreScope/pulls?q=author:SaarMesh-Bot](https://github.com/Kpa-clawbot/CoreScope/pulls?q=is%3Apr+author%3ASaarMesh-Bot)**
 
 Inhaltliche Schwerpunkte:
